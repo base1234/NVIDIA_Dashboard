@@ -1,0 +1,54 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Streamlit logs and config
+.streamlit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy and other type-checking tools
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# VSCode and IDE config files
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Zone.Identifier ADS metadata (Windows)
+*:Zone.Identifier
+
+# Environment files
+.env
+*.env
+
+# Mac Finder files
+*.DS_Store
+
+# Screenshots or local images
+/screenshots/
+
+# Data files
+*.csv
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/

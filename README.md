@@ -37,12 +37,10 @@ This project presents an interactive dashboard built using **Streamlit** and **P
 ## 📁 Project Structure
 
 ```
-rl-dashboard/
-├── data/
-│   └── synthetic_rl_combined_dataset_noisy.csv
-├── rl_dashboard.py
-├── requirements.txt
-└── README.md
+jetson dashboard
+├── README.md
+├── streamlit_dashboard.py
+└── synthetic_rl_combined_dataset_noisy.csv
 ```
 
 ## ⚙️ Getting Started
@@ -89,4 +87,4 @@ Pull requests and issues are welcome. Please open a discussion for feature reque
 ## 👤 Author
 
 **Srikanth**  
-[LinkedIn](https://www.linkedin.com/in/your-profile) | [GitHub](https://github.com/your-username)
+[LinkedIn](https://www.linkedin.com/in/sriknar13) | [GitHub](https://github.com/base1234)

@@ -1,0 +1,92 @@
+
+# 🧠 RL Agent vs Random Policy Dashboard
+
+This project presents an interactive dashboard built using **Streamlit** and **Plotly** to visualize and compare the performance of a Reinforcement Learning (RL) agent against a random policy. The dataset includes system-level telemetry collected from an NVIDIA Jetson Nano device during CPU, GPU, memory, and mixed workload executions.
+
+## 📌 Project Overview
+
+- **Goal**: Evaluate power and thermal efficiency of an RL-based agent vs. a random policy on embedded workloads.
+- **Device**: NVIDIA Jetson Nano
+- **Metrics Tracked**:
+  - CPU, GPU, RAM, and SWAP utilization
+  - Power consumption
+  - Temperature readings
+  - Reward scores
+  - Action distributions
+  - State transitions
+
+## 📊 Dashboard Features
+
+- Toggle between **RL Agent** and **Random Policy** visualizations
+- Track average and percentage-based savings in power and temperature
+- Filter insights by **task type** (e.g., CPU-bound, GPU-heavy)
+- Visualize system metric transitions before and after actions
+- Interactive graphs for:
+  - Action distributions
+  - Reward trends
+  - Utilization and temperature deltas
+
+## 🏗️ Tech Stack
+
+- **Frontend**: Streamlit
+- **Visualization**: Plotly
+- **Backend**: Python (pandas, numpy)
+- **Data Source**: Synthetic telemetry CSV
+- **Environment**: venv / conda
+
+## 📁 Project Structure
+
+```
+rl-dashboard/
+├── data/
+│   └── synthetic_rl_combined_dataset_noisy.csv
+├── rl_dashboard.py
+├── requirements.txt
+└── README.md
+```
+
+## ⚙️ Getting Started
+
+1. **Clone the repo**
+
+```bash
+git clone https://github.com/your-username/rl-dashboard.git
+cd rl-dashboard
+```
+
+2. **Create a virtual environment**
+
+```bash
+python -m venv venv
+source venv/bin/activate      # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+3. **Launch the dashboard**
+
+```bash
+streamlit run rl_dashboard.py
+```
+
+## 📷 Screenshots
+
+> (Place your visuals in a `/screenshots` folder and reference them here)
+
+![Action Distribution](./screenshots/action_distribution.png)
+![Power vs Temp](./screenshots/power_temp_savings.png)
+
+## 🚀 Future Enhancements
+
+- Real-time metric ingestion from Jetson via MQTT or sockets
+- Online RL agent monitoring and retraining interface
+- Export insights to CSV or PDF
+- Cloud-hosted version with user authentication
+
+## 🤝 Contributing
+
+Pull requests and issues are welcome. Please open a discussion for feature requests or bug reports.
+
+## 👤 Author
+
+**Srikanth**  
+[LinkedIn](https://www.linkedin.com/in/your-profile) | [GitHub](https://github.com/your-username)
